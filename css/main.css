@@ -1,0 +1,149 @@
+.chart {
+  width: 80%;
+  position: relative;
+  margin: 10% auto;
+}
+
+.chart-num {
+  width: 100%;
+}
+
+.chart-num-bor {
+  position: relative;
+  list-style: none;
+  margin: 40px 0;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.chart-num-bor span {
+  margin-top: -0.7rem;
+  position: absolute;
+  left: -2.25rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+}
+
+.chart-mon {
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 410px;
+  bottom: -4%;
+}
+
+.chart-mon-bor {
+  border-left: 1px solid #bbbbbb;
+  position: relative;
+  width: 14.28%;
+}
+
+.chart-mon-bor:last-child {
+  border-right: 1px solid #b3b3b3;
+}
+
+.chart-mon-bor span {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 8%;
+  margin: 0 0 0 14.28%;
+}
+
+.chart-top {
+  list-style: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 46%;
+  height: 203px;
+}
+
+.chart-top-bar {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.chart-top-bar span {
+  position: absolute;
+  height: 0%;
+  width: 25%;
+  bottom: 0%;
+  background-color: rgba(255, 105, 180, 0.788);
+  border: 0.5px solid #fd55a9;
+}
+
+.chart-top-bar span:first-child {
+  margin-left: 15%;
+}
+
+.chart-bot {
+  list-style: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -3.2%;
+  height: 203px;
+}
+
+.chart-bot-bar {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.chart-bot-bar span {
+  position: absolute;
+  height: 0%;
+  width: 25%;
+  background-color: rgba(105, 158, 255, 0.774);
+  border: 1px solid #4383fa;
+}
+
+.chart-bot-bar span:first-child {
+  margin-left: 50%;
+}
+
+.up {
+  width: 12%;
+  background: #bebebe;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 50px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 1px solid #7a7a7a;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.up:active {
+  border: none;
+}
+
+.update {
+  width: 40%;
+  text-transform: uppercase;
+  margin: 0 auto 10px;
+}
+
+.update input {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
